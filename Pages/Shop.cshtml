@@ -1,0 +1,47 @@
+﻿@page
+@model ConorWebsite.Pages.ShopModel
+@{
+    ViewData["Title"] = "Shop";
+}
+
+    <div class="text-center">
+        <h1 class="display-4 font-weight-bold text-light">Online Shop</h1>
+        <div class="alert alert-warning alert-dismissible fade show my-5" role="alert">
+            Welcome to the <strong>@ViewData["Title"]</strong>.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="card mx-3 my-3" style="width: 18rem;">
+                    <img class="card-img-top" src="~/assets/images/product1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Stock Wallpaper</h5>
+                        <p class="card-text">£0.99</p>
+                        <a href="#" class="btn btn-dark">View Product</a>
+                    </div>
+                </div>
+
+                <div class="card mx-3 my-3" style="width: 18rem;">
+                    <img class="card-img-top" src="~/assets/images/product2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Triangle Neon Streaks Wallpaper</h5>
+                        <p class="card-text">£1.99</p>
+                        <a href="#" class="btn btn-dark">View Product</a>
+                    </div>
+                </div>
+
+                <div class="card mx-3 my-3" style="width: 18rem;">
+                    <img class="card-img-top" src="~/assets/images/product3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple Sierra Wallpaper</h5>
+                        <p class="card-text">£0.99</p>
+                        <a href="#" class="btn btn-dark">View Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
